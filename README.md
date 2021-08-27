@@ -10,9 +10,9 @@ But... I am not really a fun of frameworks like Bootstrap, so I made my own! �
 
 I made a React version (can be used with or without typescript) and a vanilla JS/HTML/CSS version! 📚
 
-### Documentation: 
+## Documentation: 
 
-**Styling**:
+### **Styling**:
 
 | CSS Class         | Changes |
 | ----------------- | --------------------------------------------------- |
@@ -20,7 +20,7 @@ I made a React version (can be used with or without typescript) and a vanilla JS
 | `select__options` | Width of options, border-radius of dropdown.        |
 | `single__option`  | Height of options, padding, border + bg color.      |
 
-**React**:
+### **React**:
 #### Interfaces: 
 | Interface     | Use                                                 |
 | ------------- | --------------------------------------------------- |
@@ -33,4 +33,3 @@ I made a React version (can be used with or without typescript) and a vanilla JS
 | `options`         | Array of `Option`     |
 | `selectedOpt`     | Function that should set `Option["val"]` in the state (see example)       |
 
-🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
