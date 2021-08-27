@@ -21,6 +21,9 @@ I made a React version (can be used with or without typescript) and a vanilla JS
 | `single__option`  | Height of options, padding, border + bg color.      |
 
 ### **React**:
+
+> If you are already working on an app create with `create-react-app` you will not need to install anything. 
+
 #### Interfaces: 
 | Interface     | Use                                                 |
 | ------------- | --------------------------------------------------- |
