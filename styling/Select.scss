@@ -1,12 +1,14 @@
 @import "./Colors";
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .select__wrap {
-    
+
     width: 300px;
     height: 50px;
-    
+
     border-radius: 25px;
     border: none;
     background-color: $bg--light;
@@ -21,7 +23,6 @@
 
 .select {
     position: relative;
-    
 }
 
 .select__options {
@@ -29,35 +30,39 @@
     top: 55px;
     width: 330px;
     height: fit-content;
-    
+
     border-radius: 25px;
     border: none;
-    
+
     background-color: $bg--light;
     margin-left: 20px;
 
     display: flex;
     flex-direction: column;
+
     .single-option {
         padding: 10px;
         padding-left: 30px;
         height: 30px;
-        border-bottom: solid 1px $blue-hex!important;
+        border-bottom: solid 1px $blue-hex !important;
         display: flex;
-    flex-direction: column;
-    justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+
         &:first-of-type {
             border: none;
             border-top-left-radius: 25px;
-            border-top-right-radius: 25px ;
+            border-top-right-radius: 25px;
         }
+
         &:last-of-type {
-            border-color: transparent!important;
+            border-color: transparent !important;
             border-bottom-left-radius: 25px;
             border-bottom-right-radius: 25px;
         }
+
         &:hover {
-            background-color: $blue-hex!important;
+            background-color: $blue-hex !important;
             transition: .2s
         }
     }

@@ -1,6 +1,6 @@
 import React,{ useState } from "react";
-import { Option, OptionClass } from "../select-ts/interfaces";
-import { Select } from "../select-ts/Select";
+import { Option, OptionClass } from "../select-tsx/interfaces";
+import { Select } from "../select-tsx/Select";
 
 const Example = () => {
     const [option, setOption] = useState<Option["val"]>()
