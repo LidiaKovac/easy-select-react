@@ -12,14 +12,25 @@ I made a React version (can be used with or without typescript) and a vanilla JS
 
 ### Documentation: 
 
-#### React: 
+**Styling**:
 
-**Styling**
+| CSS Class         | Changes |
+| ----------------- | --------------------------------------------------- |
+| `select__wrap`    | Width, height, border-radius, bg color, text color. |
+| `select__options` | Width of options, border-radius of dropdown.        |
+| `single__option`  | Height of options, padding, border + bg color.      |
 
-| CSS Class      | Changes |
-| ----------- | ----------- |
-| `select__wrap` | Width, height, border-radius, bg color, text color. |
-| `select__options` | Width of options, border-radius of dropdown |
-| `single__option`   | Height of options, padding, border + bg color.   |
+**React**:
+#### Interfaces: 
+| Interface     | Use                                                 |
+| ------------- | --------------------------------------------------- |
+| `Option`      | Single option. `val` will be passed to the parent component, `display` will be displayed on the interface. |
+| `OptionClass` | Constructor for Options, use to create the array for the `options` prop.        |
+
+#### Props:
+| Prop              | Use / Type                                          |
+| ----------------- | --------------------------------------------------- |
+| `options`         | Array of `Option`     |
+| `selectedOpt`     | Function that should set `Option["val"]` in the state (see example)       |
 
 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
