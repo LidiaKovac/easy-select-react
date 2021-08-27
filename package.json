@@ -1,0 +1,32 @@
+{
+  "name": "react-select",
+  "version": "1.0.0",
+  "description": "A simple open source alternative to the HTML select in react",
+  "main": "Select.tsx",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LidiaKovac/react-select.git"
+  },
+  "keywords": [
+    "react",
+    "select",
+    "dropdown",
+    "customizable"
+  ],
+  "author": "Lidia Kovac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LidiaKovac/react-select/issues"
+  },
+  "homepage": "https://github.com/LidiaKovac/react-select#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19"
+  }
+}
