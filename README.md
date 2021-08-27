@@ -10,8 +10,8 @@ But... I am not really a fun of frameworks like Bootstrap, so I made my own! �
 
 I made a React version (can be used with or without typescript) and a vanilla JS/HTML/CSS version! 📚
 
-#### Documentation: 
+### Documentation: 
 
-##### React: 
+#### React: 
 
 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
