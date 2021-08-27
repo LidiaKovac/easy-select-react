@@ -1,6 +1,6 @@
 /* include this in your regular script */
 
-let selectedOption
+let selectedOption 
 
 const handleOpen = () => {
     let select = document.querySelector(".select__wrap")
