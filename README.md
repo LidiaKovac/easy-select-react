@@ -14,4 +14,11 @@ I made a React version (can be used with or without typescript) and a vanilla JS
 
 #### React: 
 
+**Styling**
+
+| CSS Class      | Changes |
+| ----------- | ----------- |
+| `select__wrap` | Width, height, border-radius, background color, text color. |
+| Paragraph   | Text        |
+
 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
