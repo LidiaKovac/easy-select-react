@@ -1,5 +1,7 @@
-@import "../../../styling/Colors";
-
+@import "./Colors";
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .select__wrap {
     
     width: 300px;

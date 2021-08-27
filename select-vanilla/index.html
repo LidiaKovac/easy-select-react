@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styling/Select.css"/>
+</head>
+<body>
+    <div class="select">
+        <div class="select__wrap close" onclick="handleOpen()">
+            <strong>SELECT AN OPTION</strong>
+        </div>
+        <div class="select__options" style="display: none;" >
+            <div class="single-option" onclick="select(this.innerText)">
+                Option 1
+            </div>
+            <div class="single-option" onclick="select(this.innerText)">
+                Option 2
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

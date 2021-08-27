@@ -1,11 +1,11 @@
-import { FC, useState } from "react";
+import {useState} from "react";
 import { Option, SelectProps } from "./interfaces";
-import "./Select.scss";
+import "../styling/Select.scss";
 
 
-const Select: FC<SelectProps> = ({ options, selectedOpt }) => {
-  const [selected, setSelected] = useState<Option>();
-  const [open, setOpen] = useState<boolean>(false);
+export const Select = ({ options, selectedOpt }) => {
+  const [selected, setSelected] = useState();
+  const [open, setOpen] = useState(false);
   return (
     <div className="select">
       <div className="select__wrap" onClick={() => setOpen(!open)}>
@@ -31,4 +31,3 @@ const Select: FC<SelectProps> = ({ options, selectedOpt }) => {
     </div>
   );
 };
-export default Select;

@@ -1,0 +1,86 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.select__wrap {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: #e0e3ff;
+  margin-left: 20px;
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #343434;
+}
+
+.select {
+  position: relative;
+}
+
+.select__options {
+  position: absolute;
+  top: 55px;
+  width: 330px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 25px;
+  border: none;
+  background-color: #e0e3ff;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.select__options .single-option {
+  padding: 10px;
+  padding-left: 30px;
+  height: 30px;
+  border-bottom: solid 1px #5D6AFF !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.select__options .single-option:first-of-type {
+  border: none;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.select__options .single-option:last-of-type {
+  border-color: transparent !important;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.select__options .single-option:hover {
+  background-color: #5D6AFF !important;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+/*# sourceMappingURL=Select.css.map */
