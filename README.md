@@ -1,6 +1,9 @@
 # ✍️ CUSTOM SELECT / DROPDOWN ✍️
 
-I always struggle to use HTML5 `<select>` and packages are sometimes overcomplicated for just a simple dropdown. 
+## ``` npm i easy-select-react ```
+
+
+I always struggle to use HTML5 `<select>` and packages are sometimes overcomplicated for just a simple dropdown. ``
 
 But... I am not really a fun of frameworks like Bootstrap, so I made my own! 👻
 
