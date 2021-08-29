@@ -18,7 +18,7 @@ I made a React version (can be used with or without typescript) and a vanilla JS
 | ----------------- | --------------------------------------------------- |
 | `select__wrap`    | Width, height, border-radius, bg color, text color. |
 | `select__options` | Width of options, border-radius of dropdown.        |
-| `single__option`  | Height of options, padding, border + bg color.      |
+| `single-option`  | Height of options, padding, border + bg color.      |
 
 ### **React**:
 
