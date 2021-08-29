@@ -1,6 +1,5 @@
-import {useState} from "react";
-import { Option, SelectProps } from "./interfaces";
-import "../styling/Select.scss";
+import React,{useState} from "react";
+import "./styles/Select.scss";
 
 
 export const Select = ({ options, selectedOpt }) => {
