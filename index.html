@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./main.css" />
+        <link rel="stylesheet" href="./styling/Select.css" />
+        <link rel=icon href="assets/GitHub-Mark-64px.png" sizes="32x32">
+        <title>Custom Dropdown</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="bd">
+                <div class="wrap">
+                    <a href="https://lidiakovac.it">
+                        <logo>
+                            < Lidia Kovac />
+                        </logo>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="main">
+                <h1>Custom Select</h1>
+                <p>
+                    A simple to use and style dropdown that requires no other dependencies or libraries.
+                    Exists in both React and HTML5 versions.
+                </p>
+                <iframe
+                    src="https://ghbtns.com/github-btn.html?user=LidiaKovac&repo=custom-select-dropdown&type=star&count=true&size=large"
+                    frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+                <a href="https://www.buymeacoffee.com/lidiacodes" class="kofi">
+                    <img src="./assets/TKvKJ4tg.png" alt="ko-fi" />
+                    Buy me a coffee
+                </a>
+            </div>
+            <div class="example">
+                <div class="select">
+                    <div class="select__wrap close" onclick="handleOpen()">
+                        <strong>SELECT AN OPTION</strong>
+                    </div>
+                    <div class="select__options" style="display: none;">
+                        <div class="single-option" onclick="select(this.innerText)">
+                            Option 1
+                        </div>
+                        <div class="single-option" onclick="select(this.innerText)">
+                            Option 2
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main>
+            <aside class="left">
+                <ul>
+                    <span style="font-size: 18pt; font-weight: bold;">Examples:</span>
+                    <li>
+                        <a href="#html5">
+                            HTML 5
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#react">
+                            React
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#react_ts">
+                            React + Typescript
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <span style="font-size: 18pt; font-weight: bold;">Styling:</span>
+                    <li>
+                        <a href="#classes">
+                            Classes
+                        </a>
+                    </li>
+                    
+                </ul>
+            </aside>
+            <section>
+                <h2 id="html5">HTML 5</h2>
+                <h3>Example: </h3>
+                <div class="html5__ex">
+                    <pre id="html">
+                        
+                    </pre>
+                </div>
+                <h2 id="react">React</h2>
+                <h3>Example: </h3>
+                <div class="react__ex">
+                    <pre id="react">
+                        
+                    </pre>
+                </div>
+                <h2 id="react_ts">React + Typescript</h2>
+                <h3>Example: </h3>
+                <div class="ts__ex">
+                    <pre id="ts">
+                        
+                    </pre>
+                </div>
+                <h3>Interfaces: </h3>
+                <table style="width: 80%;">
+                    <tr>
+                      <th style="width: 200px; text-align: center;">Interface</th>
+                      <th>Use / Type</th>
+                    </tr>
+                    <tr>
+                      <td><div class="code">Option</div></td>
+                      <td>Single option. <span class="code"> val </span> will be passed to the parent component, <span class="code"> display </span> will be displayed on the interface.</td>
+                    </tr>
+                    <tr>
+                      <td><div class="code">OptionClass</div></td>
+                      <td>Constructor for <span class="code"> Option </span>, use to create the array for the <span class="code"> options </span> prop.</td>
+                    </tr>
+                  </table>
+                  <h3>Props: </h3>
+                  <table style="width: 80%;">
+                    <tr>
+                      <th style="width: 200px; text-align: center;">Prop</th>
+                      <th>Use / Type</th>
+                    </tr>
+                    <tr>
+                      <td><div class="code">options</div></td>
+                      <td> Array of <span class="code"> Option </span> .</td>
+                    </tr>
+                    <tr>
+                      <td><div class="code">selectedOpt</div></td>
+                      <td>Function that should set <span class="code"> Option["val"] </span> in the state (see example)</td>
+                    </tr>
+                  </table>
+                <h2 id="classes">Useful Classes</h2>
+                <table>
+                    <tr>
+                      <th style="width: 200px; text-align: center;">CSS Class</th>
+                      <th>Properties</th>
+                    </tr>
+                    <tr>
+                      <td><div class="code">select__wrap</div></td>
+                      <td>Width, height, border, background-color, color</td>
+                    </tr>
+                    <tr>
+                      <td><div class="code">select__options</div></td>
+                      <td>Width and border-radius of dropdown</td>
+                    </tr>
+                    <tr>
+                        <td><div class="code">single-option</div></td>
+                        <td>Height , padding, border, background-color of single options</td>
+                      </tr>
+                  </table>
+            </section>
+            <aside>
+                <h3>Other projects: </h3>
+            </aside>
+        </main>
+
+    </body>
+    <script src="./select-vanilla/js/index.js"></script>
+    <script>
+        let snippet = document.querySelector("pre#html")
+        snippet.innerText = `
+<div class="select">
+    <div class="select__wrap close" onclick="handleOpen()">
+        <strong>SELECT AN OPTION</strong>
+    </div>
+    <div class="select__options" style="display: none;" >
+        <div class="single-option" onclick="select(this.innerText)">
+            Option 1
+        </div>
+        <div class="single-option" onclick="select(this.innerText)">
+            Option 2
+        </div>
+    </div>
+</div>`
+        snippet.style.fontFamily = "Monospace"
+
+        let react_snippet = document.querySelector("pre#react")
+        react_snippet.style.fontFamily = "Monospace"
+        react_snippet.innerText=`import React, { useState } from "react"
+import { Select } from "../select-jsx/Select"
+
+const Example = () => {
+   const [option, setOption] = useState()
+    const options = [
+	   new OptionClass("1", "Option 1"),
+	   new OptionClass("2", "Option 2"),
+	]
+	return (
+	   <>
+	      <Select options={options} selectedOpt={(mode) => setOption(mode.val)} />
+	   </>
+	)
+}
+export default Example
+`
+let ts_snippet = document.querySelector("pre#ts")
+        ts_snippet.style.fontFamily = "Monospace"
+        ts_snippet.innerText=`import React,{ useState } from "react";
+import { Option, OptionClass } from "../select-tsx/interfaces";
+import { Select } from "../select-tsx/Select";
+
+const Example = () => {
+    const [option, setOption] = useState<Option["val"]>()
+    const options = [new OptionClass("1", "Option 1"), new OptionClass("2", "Option 2")]
+  return (
+    <>
+      <Select options={options} selectedOpt={(mode:Option)=> setOption(mode.val)} />
+    </>
+  );
+};
+export default Example;
+`
+    </script>
+    
+</html>

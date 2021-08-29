@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+    --main: #C1DFBF;
+    --main__dark: #718D6F;
+    --main__medium: #92b48f;
+
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--main);
+}
+
+.jumbotron {
+    width: calc(100vw - 30px);
+    height: 400px;
+
+    background-color: var(--main__dark);
+    color: white;
+
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-left: -10px;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+iframe {
+    background-color: transparent;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent !important;
+
+    width: 50%;
+}
+
+.example {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: transparent;
+}
+
+.example .select {
+    background-color: transparent;
+    transform: translateY(-60px);
+}
+
+.example .select .select__wrap {
+    background-color: var(--main);
+}
+
+.example .select .select__options .single-option {
+    background-color: var(--main);
+    color: black;
+    border-bottom: var(--main__dark) 1px solid !important;
+}
+
+.select .select__options .single-option:hover {
+    background-color: var(--main__medium) !important;
+}
+
+p {
+    background-color: transparent;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section {
+    width: 75%;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 15pt;
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    height: 100vh;
+    border-left: var(--main__dark) 1px solid;
+}
+
+aside.left {
+    width: 20%;
+    border-left: none;
+    background-color: white;
+    margin-left: -10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    height: auto;
+}
+
+h1 {
+    background: transparent;
+    color: white;
+    font-size: 30pt;
+}
+
+* {
+
+    font-family: "Noto Sans"
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bd {
+    justify-self: flex-start;
+    position: relative;
+    width: fit-content;
+    height: 34pt;
+
+
+    background-color: var(--main__dark);
+
+    align-self: flex-start;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.bd .wrap {
+    transition: .5s;
+    position: relative;
+    width: fit-content;
+    height: 25pt;
+
+    padding: 5px;
+
+    background-color: white;
+
+    align-self: flex-start;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-5%, -17%);
+}
+
+logo {
+    font-size: 20pt;
+    font-weight: bolder;
+    background-color: transparent;
+}
+
+a {
+    color: black;
+    background-color: transparent;
+}
+
+.kofi {
+    margin-top: 20px;
+    height: 30px;
+    width: fit-content;
+    background-color: #eee;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #333;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.kofi img {
+    width: 25px;
+    height: 25px;
+
+    background-color: transparent;
+    margin: 5px;
+}
+
+.html5__ex, .react__ex, .ts__ex {
+    font-family: monospace;
+    background-color: var(--main__medium);
+    width: fit-content;
+    padding: 15px;
+    color:#343434;
+    border-left: 5px var(--main__dark) solid;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+main section {
+    width: 75%;
+    padding-left: 40px;
+    background-color: var(--main);
+}
+
+.code {
+    font-family: monospace;
+    font-size: 10pt;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--main__medium);
+
+}
+
+table:last-of-type {
+    margin-bottom: 40px;
+}
