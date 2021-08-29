@@ -1,6 +1,6 @@
 {
   "name": "easy-select-react",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A simple open source alternative to the HTML select in react",
   "main": "dist/index.js",
   "module": "dist/index.js",
