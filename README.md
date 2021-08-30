@@ -5,7 +5,7 @@
 
 I always struggle to use HTML5 `<select>` and packages are sometimes overcomplicated for just a simple dropdown. ``
 
-But... I am not really a fun of frameworks like Bootstrap, so I made my own! 👻
+But... I am not really a fan of frameworks like Bootstrap, so I made my own! 👻
 
 **Here is what it looks like...**
 
