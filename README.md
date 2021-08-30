@@ -13,6 +13,8 @@ But... I am not really a fan of frameworks like Bootstrap, so I made my own! ðŸ‘
 
 I made a React version (can be used with or without typescript) and a vanilla JS/HTML/CSS version! ðŸ“š
 
+<a href="https://lidiakovac.github.io/custom-select-dropdown/">Examples here!</a>
+
 ## Documentation: 
 
 ### **Styling**:
