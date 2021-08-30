@@ -6,7 +6,7 @@
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LidiaKovac/custom-select-dropdown.git"
+    "url": "git+https://github.com/LidiaKovac/easy-select-react.git"
   },
   "keywords": [
     "react",
@@ -14,7 +14,7 @@
     "dropdown",
     "customizable"
   ],
-  "homepage": "https://lidiakovac.github.io/custom-select-dropdown/",
+  "homepage": "https://lidiakovac.github.io/easy-select-react/",
   "dependencies": {
     "@babel/polyfill": "7.12.1",
     "@testing-library/jest-dom": "5.14.1",
