@@ -1,10 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
+@media (max-width: 900px) {
+    html {
+        width: 100vw;
+    }
+    body {
+        width: 100vw!important;
+        margin-left: 0px!important;
+    }
+    .jumbotron {
+        flex-direction: column!important;
+        height: 600px!important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px!important;
+        margin-left: 0px!important;
+        width: 100vw!important;
+        
+    }
+    h1 {
+        padding-top: 20px;
+    }
+    aside.left {
+        display: none;
+    }
+    /* main {
+        margin: 0px!important
+    } */
+    section {
+        width: 100vw!important;
+        padding-left: 15px!important;
+    }
+    pre {
+        width: 90vw;
+        white-space: pre;
+        overflow-x: scroll;
+    }
+    .main {
+        width: 80%!important;
+    }
+    .example {
+        margin-top: 100px;
+        width: fit-content!important;
+    }
+    table {
+        width: 100%!important;
+    }
+    .select__wrap {
+        margin-left: 0px!important;
+        padding-left: 0px!important;
+    }
+}
 :root {
     --main: #C1DFBF;
     --main__dark: #718D6F;
     --main__medium: #92b48f;
-
 }
 
 body {
